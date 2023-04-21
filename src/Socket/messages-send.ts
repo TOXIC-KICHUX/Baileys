@@ -547,6 +547,8 @@ export const makeMessagesSocket = (config: SocketConfig) => {
 
 	return {
 		...sock,
+		createParticipantNodes,
+		getUSyncDevices,
 		getPrivacyTokens,
 		assertSessions,
 		relayMessage,
